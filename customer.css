@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+
+header h1{
+    /* background-color:darkblue; */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0,0,0, 0.8);
+}
+
+nav{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    /* background-color:darkslateblue; */
+    background-color: rgba(0,0,0, 0.8);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    /* background-color: black; */
+    float: left;
+    padding-left: 40px;
+}
+ul li a{
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+    font-size:larger;
+    font-family: cursive;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: skyblue;
+    color: black;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+.bimage{
+    background-image: url('bankimage1.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.tbl{
+    background-color: rgba(0,0,0, 0.8);
+}
+table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+}
+
+td,th{
+    padding: 20px;
+    text-align: center;
+}
+th{
+    width: 150px;
+}
+caption{
+    font-size: 30px;
+    font-family: cursive;
+}
+.button{
+    display: inline-block;
+    padding-top: 30px;
+}
+.btn{
+    border: solid 2px skyblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: skyblue;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: cursive;
+}
+
+td button a{
+    text-decoration: none;
+    color: black;
+    padding: 40px 20px 40px 20px;
+}
+

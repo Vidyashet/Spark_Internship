@@ -1,0 +1,35 @@
+.forms{
+    /* display: inline-block; */
+    padding-top: 60px;
+   padding-left: 35%;
+   padding-bottom: 60px;
+    /* text-align: center; */
+    /* background-color: aqua; */
+    background-color: rgba(0,0,0, 0.7);
+}
+.heading
+{
+    padding: 10px 100px 10px 100px;
+   display: inline-block;
+   border:2px solid white; 
+   border-radius: 10px;
+   font-family: cursive;
+   font-size: 25px;
+   color: white;
+}
+
+.fcontent{
+    margin-left: 80px;
+    
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.btn{
+    margin-left: 50px;
+}
+
